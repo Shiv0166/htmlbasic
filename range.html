@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age" >
+        <label for="age">I am 18+</label>
+        <input type="checkbox" name="fruit" id="apple" value="apple">
+        <label for="apple">apple</label>
+        <input type="checkbox" name="fruit" id="banana" value="banana">
+        <label for="apple">banana</label>
+        <input type="checkbox" name="fruit" id="mango" value="mango">
+        <label for="apple">mango</label>
+        <div>
+            choose your profession 
+          <select name="profeesion" id="profession">
+            <option>select your option</option>
+            <option value="stu">student</option>
+            <option value="dev">developer</option>
+          </select>  
+        </div>
+        <label for="vol">select your volume level:</label>
+        <input type="range" type="range" min="0" max="100" name="vol">
+        <button>submit</button>
+    </form>
+</body>
+</html>

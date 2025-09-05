@@ -1,0 +1,49 @@
+jb hm bahut sare elment me se ek ko tick krna ho to isko use krte hh
+isme hm jitne bhi option h unke namevalue  same rahega taki koi ek hi select hopaye  --->very very inportant point 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age">
+        <label for="age">I am 18+</label>
+        <input type="checkbox" name="fruit" id="apple">
+        <label for="apple">apple</label>
+        <input type="checkbox" name="fruit" id="banana">
+        <label for="apple">banana</label>
+        <input type="checkbox" name="fruit" id="mango">
+        <label for="apple">mango</label>
+        <button>submit</button>
+    </form>
+</body>
+</html>
+yaha pr jb hm ek ko tick krke submit krenge to ye aayega http://127.0.0.1:5500/server?age=on&fruit=on
+agr hmko fruit equal to value chahiye to 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkbox</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age" >
+        <label for="age">I am 18+</label>
+        <input type="checkbox" name="fruit" id="apple" value="apple">
+        <label for="apple">apple</label>
+        <input type="checkbox" name="fruit" id="banana" value="banana">
+        <label for="apple">banana</label>
+        <input type="checkbox" name="fruit" id="mango" value="mango">
+        <label for="apple">mango</label>
+        <button>submit</button>
+    </form>
+</body>
+</html>
+
+ab ye aayega http://127.0.0.1:5500/server?fruit=mango
